@@ -3,8 +3,15 @@ This is a python project which fetches the daily SUDOKU problems from New York T
 
 ## Requirements
 ### 1. Python must be installed in your machine
-### 2. Selenium 
-            To install selenium run : pip install selenium
-            Selenium is used by the scraper to scrape the sudoku puzzle
+### 2. Selenium
+            pip install selenium
+To install selenium run the above command in your terminal or cmd
+
+Selenium is used by the scraper to scrape the sudoku puzzle
 ### 3. Chrome browser
-      You can tweak the code to use `Firefox webbrowser`
+You can tweak the code to use `Firefox webbrowser`
+      
+# Usage :
+            python3 sudoku.py (for linux/mac)
+            python sudoku.py (for windows)
+go to the project folder and run the above command in your terminal. ENJOY ;)
