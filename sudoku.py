@@ -14,7 +14,7 @@ def print_board(mat):
             if y % 3 == 0:
                 print(Fore.RED + "|", end=" ")
             if mat[x][y] == 0:
-                print(Fore.BLACK + "x", end=" ")
+                print(Fore.GREEN + "x", end=" ")
             else:
                 print(Fore.BLUE + str(mat[x][y]), end=" ")
         print("")
@@ -43,8 +43,9 @@ level_url = {
 print(Fore.BLUE + "------ Today's New York Times Sudoku Puzzle ------")
 print(Fore.RED + f":::::: {datetime.date(datetime.now())}")
 
+
 # get user input for level
-url = level_url[int(input(Fore.BLACK +
+url = level_url[int(input(Fore.LIGHTGREEN_EX +
                           "Which level do you want to try?\n\t(1) Easy\n\t(2) Medium\n\t(3) Hard\n\nEnter a number :"))]
 
 # get the puzzle from url
